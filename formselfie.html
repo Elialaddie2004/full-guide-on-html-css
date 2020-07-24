@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-compatible" content="ie=edge">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: 'raleway', sans-serif;
+                background-image: url(./img/index.jpg);
+                color: #fff;
+                line-height: 1.8;
+            }
+          a {
+                text-decoration: none;
+            }
+            #container {
+                
+                margin:30px auto ;
+                max-width:400px;
+                padding: 20px;
+            }
+           
+            .form-laddie {
+                border-radius: 12px;
+                background-image: url(./img/download.jpg);
+                padding:15px 25px;
+                color: rgb(255, 255, 255);
+            }
+            .form-laddie h1,
+            .form-laddie p {
+                text-align: center;
+            }
+            .form-laddie .form-elia {
+                margin-top: 15px;
+            }
+            .form-laddie .form-elia label {
+                display: block;
+                color: #fded07;
+            }
+            .form-laddie .form-elia input {
+                width: 100%;
+                border: #ddd 1px solid;
+                border-radius: 5px;
+            }
+            .form-laddie button {
+                border-radius: 50px;
+                display: block;
+                width:100px;
+                padding:10px;
+                margin-top: 20px;
+                background: #49c1a2;
+                color: #fff;
+                cursor:pointer;
+            } 
+            .footer {
+                color: chartreuse;
+            }
+            .footer a {
+                color:  #49c1a2;
+            }
+
+        </style>
+</head>
+<body>
+<div id="container">
+  <div class="form-laddie">
+       <h1>SIGN UP</h1>
+       <p>forget all your heart break and start new path of life</p>
+
+     <form>
+      <div class="form-elia">
+        <label for="first-name">first-name</label>
+        <input type="text" name="firstname" id="firstname"/>
+       </div>
+        <div class="form-elia">
+          <label for="last-name">last-name</label>
+          <input type="text" name="lastfirst" id="lastname"/>
+        </div>
+        <div class="form-elia">
+            <label for="e-mail">e-mail</label>
+            <input type="text" name="email" id="email"/>
+        </div>    
+        <div class="form-elia">
+            <label for="password">password</label>
+            <input type="password" name="password" id="password"/>
+        </div>
+        <div class="form-elia">
+            <label for="password2">confirm-password<label>
+            <input type="password" name="password2" id="password"/>
+        </div>
+        <button type="submit" class="btn">SIGN UP</button>
+        <p class="bottom-text">
+            by clickinn here you will be agreed with our 
+            <a href="#">terms & condition</a> and 
+            <a href="#">privacy policy</a> 
+        </p>
+     </form>
+    </div>
+  <footer>
+    <P>arleady have an account? <a href="#">LOG IN</a></P>
+  </footer>
+</div>
+</body>
+</html>

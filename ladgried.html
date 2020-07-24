@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid {
+            display: grid;
+            grid-template-columns:repeat(3,1fr);            
+            width: 400px;
+            max-height: 600px;
+            gap:10px;
+        }
+        .grid-item-1 {
+            width: 200px;
+            height: 300px;
+            grid-row-start: 1;            
+            grid-row-end: 3;
+            background: grey;
+            border-radius: 4px;
+        }
+        .grid-item-2 {
+            width: 150px;
+            grid-area: 1;
+            background: rgb(116, 106, 106);
+            border-radius: 4px;
+        }
+        .grid-item-3 {
+            grid-area: 2;
+            background: rgb(122, 103, 113);
+            border-radius: 4px;
+        }
+        .grid-item-1:hover {
+            background:orange;
+        }
+        .grid-item-2:hover {
+            background:orange;
+
+        }
+        .grid-item-3:hover {
+            background:orange;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="grid">    
+    <div class="grid-item-1">trainer"1"</div>
+    <div class="grid-item-2">trainer"2"</div>
+    <div class="grid-item-3">trainer"3"</div>
+</div>
+</body>
+</html>
