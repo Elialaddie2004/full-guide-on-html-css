@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    line-height: 1.8em;
+}
+#navbar{
+    background:linear-gradient(rgba(58, 109, 221, 0.924),rgb(90, 166, 195));
+    padding-left: 215px;    
+}
+#navbar ul li  {
+    /* background: #000000; */
+    float: right;    
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    color: indigo;
+}

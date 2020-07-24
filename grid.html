@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #grid {
+            display: grid;
+            grid-template-columns: 4, 1fr;
+            gap: 10px;
+            height: 500px;
+            width: 200px;
+        }
+        .grid-item1 {
+            background: lightgray;
+            grid-row-start: 1;
+            grid-row-end: 4;           
+
+        }
+        .grid-item2 {            
+            background:gray;
+            grid-area: 1;
+        }
+        .grid-item3 {            
+            background:lightgrey;
+            grid-area:2;
+                      
+        }
+        .grid-item{
+            grid-area: 3;
+            background:lightgrey;
+
+        }
+        </style>
+    <body>
+        <div id="grid">      
+        <div class="grid-item1">box1</div>
+        <div class="grid-item2">box2</div>
+        <div class="grid-item3">box3</div>
+        <div class="grid-item">box 4</div>
+    </div>
+    </body>
+    </html>
